@@ -3,5 +3,11 @@ agent any
 stages
 { stage ('my first job to print')
   {steps {sh 'echo hello_jenkins'}}
+
+{ stage ('building the job')
+  {steps {sh 'echo code_is building'}}
+
+{ stage ('deply artifactory')
+  {steps {sh 'code is depoying'}}
   }
   }
