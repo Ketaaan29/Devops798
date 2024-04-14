@@ -5,9 +5,9 @@ stages
   {steps {sh 'echo hello_jenkins'}}
 
 { stage ('building the job')
-  {steps {sh 'echo code_is building'}}
+  {steps {sh 'echo code_is_building'}}
 
 { stage ('deply artifactory')
-  {steps {sh 'code is depoying'}}
+  {steps {sh 'code_is_depoying'}}
   }
   }
