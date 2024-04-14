@@ -8,6 +8,6 @@ stages
   {steps {sh 'echo code_is_building'}}
 
 { stage ('deply artifactory')
-  {steps {sh 'code_is_depoying'}}
+  {steps {sh 'echo code_is_depoying'}}
   }
   }
