@@ -2,12 +2,12 @@ pipeline {
 agent any 
 stages
   { stage ('my first job to print')
-     {steps {sh 'echo hello_jenkins'}}
+     {steps {sh 'echo hello_Ketan_here'}}
 
     stage ('building the job')
-     {steps {sh 'echo code_is_building'}}
+     {steps {sh 'echo Ketan_building_code'}}
 
     stage ('deply artifactory')
-     {steps {sh 'echo code_is_depoying'}}
+     {steps {sh 'echo Ketan_is_depoying'}}
   }
   }
